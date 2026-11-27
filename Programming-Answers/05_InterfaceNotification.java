@@ -7,7 +7,7 @@ class EmailNotification implements Notification {
 class SmsNotification implements Notification {
     public void send(String message) { System.out.println("SMS: " + message); }
 }
-public class InterfaceNotification {
+class InterfaceNotification {
     public static void main(String[] args) {
         Notification[] services = { new EmailNotification(), new SmsNotification() };
         for (Notification service : services) service.send("Assignment submitted");
