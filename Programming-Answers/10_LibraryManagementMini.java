@@ -24,7 +24,7 @@ class Library {
             System.out.println(b.id + " | " + b.title + " | " + (b.issued ? "Issued" : "Available"));
     }
 }
-public class LibraryManagementMini {
+class LibraryManagementMini {
     public static void main(String[] args) {
         Library library = new Library();
         library.addBook(new Book(1, "Effective Java"));
