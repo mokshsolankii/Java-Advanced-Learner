@@ -21,7 +21,7 @@ class BankAccount {
     public double getBalance() { return balance; }
     public String getAccountHolder() { return accountHolder; }
 }
-public class BankAccountEncapsulation {
+class BankAccountEncapsulation {
     public static void main(String[] args) throws Exception {
         BankAccount account = new BankAccount("Aarav", 5000);
         account.deposit(1500);
