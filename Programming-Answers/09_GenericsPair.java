@@ -5,7 +5,7 @@ class Pair<K, V> {
     K getKey() { return key; }
     V getValue() { return value; }
 }
-public class GenericsPair {
+class GenericsPair {
     public static void main(String[] args) {
         Pair<Integer, String> student = new Pair<>(101, "Meera");
         System.out.println(student.getKey() + " -> " + student.getValue());
