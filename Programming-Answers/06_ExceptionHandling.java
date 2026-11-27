@@ -1,7 +1,7 @@
 class AgeNotEligibleException extends Exception {
     AgeNotEligibleException(String message) { super(message); }
 }
-public class ExceptionHandling {
+class ExceptionHandling {
     static void register(int age) throws AgeNotEligibleException {
         if (age < 18) throw new AgeNotEligibleException("Must be at least 18");
         System.out.println("Registration successful");
