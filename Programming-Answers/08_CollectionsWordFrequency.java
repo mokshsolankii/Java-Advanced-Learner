@@ -1,5 +1,5 @@
 import java.util.*;
-public class CollectionsWordFrequency {
+class CollectionsWordFrequency {
     public static void main(String[] args) {
         String sentence = "java is object oriented and java is portable";
         Map<String, Integer> frequency = new TreeMap<>();
