@@ -11,7 +11,7 @@ class Developer extends Employee {
     }
     @Override double calculateSalary() { return super.calculateSalary() + projectAllowance; }
 }
-public class EmployeeInheritance {
+class EmployeeInheritance {
     public static void main(String[] args) {
         Employee e = new Developer("Riya", 45000, 8000);
         System.out.println("Total salary: " + e.calculateSalary());
