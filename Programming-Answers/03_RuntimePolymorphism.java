@@ -11,7 +11,7 @@ class Rectangle extends Shape {
     Rectangle(double length, double width) { this.length = length; this.width = width; }
     double area() { return length * width; }
 }
-public class RuntimePolymorphism {
+class RuntimePolymorphism {
     public static void main(String[] args) {
         Shape[] shapes = { new Circle(3), new Rectangle(4, 5) };
         for (Shape shape : shapes) System.out.printf("Area: %.2f%n", shape.area());
